@@ -1,73 +1,89 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <title>Site Simples</title>
-  <style>
-    body {
-      font-family: Arial;
-      margin: 0;
-    }
-
-    header {
-      background: #333;
-      color: white;
-      text-align: center;
-      padding: 10px;
-    }
-
-    nav {
-      background: #555;
-      text-align: center;
-      padding: 10px;
-    }
-
-    nav a {
-      color: white;
-      margin: 10px;
-      text-decoration: none;
-    }
-
-    .card {
-      background: #eee;
-      margin: 10px;
-      padding: 10px;
-      text-align: center;
-    }
-
-    footer {
-      background: #333;
-      color: white;
-      text-align: center;
-      padding: 10px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buffet F&F - Festa Feliz</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header>
-    <h1>Meu Site</h1>
-  </header>
+<header>
+    <h1>Buffet F&F - Festa Feliz</h1>
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#contato">Contato</a>
+    </nav>
+</header>
 
-  <nav>
-    <a href="#">Início</a>
-    <a href="#">Sobre</a>
-    <a href="#">Contato</a>
-  </nav>
+<section class="banner">
+    <h2>Transformando momentos especiais em festas inesquecíveis</h2>
+</section>
 
-  <div class="card">
-    <h3>Card 1</h3>
-    <p>Texto simples</p>
-  </div>
+<section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>
+        O Buffet F&F - Festa Feliz é especializado na realização de eventos
+        de todos os tamanhos, oferecendo qualidade, organização e excelência
+        no atendimento.
+    </p>
+</section>
 
-  <div class="card">
-    <h3>Card 2</h3>
-    <p>Texto simples</p>
-  </div>
+<section id="servicos">
+    <h2>Nossos Serviços</h2>
 
-  <footer>
-    <p>Rodapé</p>
-  </footer>
+    <div class="cards">
+        <div class="card">
+            <h3>Casamentos</h3>
+        </div>
+
+        <div class="card">
+            <h3>Aniversários</h3>
+        </div>
+
+        <div class="card">
+            <h3>Formaturas</h3>
+        </div>
+
+        <div class="card">
+            <h3>Eventos Corporativos</h3>
+        </div>
+    </div>
+</section>
+
+<section id="galeria">
+    <h2>Galeria</h2>
+
+    <div class="imagens">
+        <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622" alt="">
+        <img src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3" alt="">
+        <img src="https://images.unsplash.com/photo-1555244162-803834f70033" alt="">
+    </div>
+</section>
+
+<section>
+    <h2>Planejamento Inteligente</h2>
+
+    <p>
+        Utilizamos um sistema de cálculo de consumo para estimar a quantidade
+        ideal de alimentos e bebidas, evitando desperdícios e garantindo que
+        nenhum convidado fique sem atendimento.
+    </p>
+</section>
+
+<section id="contato">
+    <h2>Contato</h2>
+
+    <p>📞 (11) 99999-9999</p>
+    <p>📧 contato@festafeliz.com.br</p>
+    <p>📍 São Paulo - SP</p>
+</section>
+
+<footer>
+    <p>© 2026 Buffet F&F - Festa Feliz</p>
+</footer>
 
 </body>
 </html>
